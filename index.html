@@ -1,20 +1,78 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>fxsweb demo</title>
+        <title>fxsweb demo 5 jan</title>
     </head>
     <body>
-    <h1>fxsweb demo</h1>
+    <h1>fxsweb demo 5 jan</h1>
       <p>Welcome to my site, I am <a href="https://s.castle.xyz/wnrRxSmmo0Wn">Youssef 140</a> and <a href="https://s.castle.xyz/Q7SIUjT2Vit9">its is boy psi</a> we seek your happiness. Warning that the site is updated several times as the old file is replaced with a new one. </p>  
       <marquee>
           <a href="https://youtube.com/@mohameder-radi4650?si=6KUEKgX7QJ6XPsyQ">My YouTube channel</a>
              <a href="https://photos.app.goo.gl/x7uLeA2tY4GLKyRn9">To attend comics and animation</a>
                 <a href="https://discord.gg/CGNYNqu5">Discord server</a>
                    <a href="https://x.com/Fx_Entertment14?t=c9IMdcEUvqPGMp4pWjrx2w&s=09">My account in X</a>
+                   <a href="https://www.instagram.com/fxsweb?igsh=YzljYTk1ODg3Zg==‎‏"> my accont in Instagram</a>
                    
       </marquee>
       <p>Contact me at superanimfx@gmail.com</p>
       <h5>Words of day</h5>
-      <p>Happy Christmas to Christians from youssef 140</p>
+     <p>Site will not be developed until Friday, January 9th.</p>
+     <div > <p></p>
+     <h2 id="r">manga and comics and gif</h2>
+      <table Board>
+        <tr>
+            <td>name</td>
+ <td>image</td>
+        </tr>  
+        <td>bird</td>
+        <td><img src="brit.gif" width="50px"height="40px"></td>
+      </table>
+      <table 
+   <div id="greeting" style="display: none;"></div>
+</div>
+    <script>
+        function showGreeting() {
+            var greetingElement = document.getElementById("greeting");
+            var now = new Date();
+            var gmt1Time = new Date(now.getTime() + 3600000); // إضافة ساعة واحدة لـ GMT+1
+            var hours = gmt1Time.getHours();
+            var minutes = gmt1Time.getMinutes();
+
+            if (hours === 0 && minutes === 0) {
+                greetingElement.textContent = "سنة سعيدة 2025";
+                greetingElement.style.display = "block";
+
+                // إخفاء التهنئة بعد 5 ثوانٍ (يمكنك تغيير المدة)
+                setTimeout(() => {
+                    greetingElement.style.display = "none";
+                }, 5000);
+            }
+        }
+
+        // تشغيل الدالة كل ثانية للتحقق من الوقت
+        setInterval(showGreeting, 1000);
+    </script>
+    <style>
+        div{
+            background: #ff001f;
+            
+        }
+        p{
+            background: #ffffff;
+        }
+        body {
+            background: Grey;
+        }
+        marquee {
+            background: black ;
+        }
+        h1{
+            color: red;
+        }
+        a{
+            color: #e3ff00;
+        }
+    </style>
+    <a href="fxsd.html">Friend</a> <a href="hogo.html">History for fxs</a>
     </body>
 </html>
