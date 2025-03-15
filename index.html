@@ -47,16 +47,14 @@
         
     <script>
         let x = document.getElementById("mm");
-        x.onclick = function () {
- 
- 
+        y.onclick = function (){
  fetch("https://raw.githubusercontent.com/fxs1400/Post/refs/heads/main/Post.txt").then(function (response) {
      return response.text()
  }).then(function (data) {
-     alert("◀ free post المنشورات الحرة▷\n لكي تنشر تواصل مع superanimfx@gmail.com \n نستخدم js لكي يصل لكم المنشورات \n"+ data);
-                                                               })
-            )
+     alert("◀ free post المنشورات الحرة▷\n لكي تنشر تواصل مع superanimfx@gmail.com \n"+ data);
+ 
  })
+    }
     </script>
     <style>
         div{
