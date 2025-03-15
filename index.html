@@ -39,28 +39,29 @@
       <table 
    <div id="greeting" style="display: none;"></div>
 </div>
+       <h1>◀ المنتدى▷</h1>
+        <button onclick="post()">❑المنشوارت ❒</button>
+        <h2>■الفعليات■</h2>
+        <a href="Tttt.html">ملفات </a>
+        <p> على ريديت r/fxsgrop</p>
+        <button id="mm">أخبار</button>
     <script>
-        function showGreeting() {
-            var greetingElement = document.getElementById("greeting");
-            var now = new Date();
-            var gmt1Time = new Date(now.getTime() + 3600000); // إضافة ساعة واحدة لـ GMT+1
-            var hours = gmt1Time.getHours();
-            var minutes = gmt1Time.getMinutes();
-
-            if (hours === 0 && minutes === 0) {
-                greetingElement.textContent = "سنة سعيدة 2025";
-                greetingElement.style.display = "block";
-
-                // إخفاء التهنئة بعد 5 ثوانٍ (يمكنك تغيير المدة)
-                setTimeout(() => {
-                    greetingElement.style.display = "none";
-                }, 5000);
-            }
+        let x = document.getElementById("mm");
+        function post(){ 
+        fetch("https://raw.githubusercontent.com/fxs1400/Post/refs/heads/main/Post.txt").then(function (response) {
+     return response.text()
+ }).then(function (data) {
+            alert("All post \n"+ data);
+        })
         }
-
-        // تشغيل الدالة كل ثانية للتحقق من الوقت
-        setInterval(showGreeting, 1000);
-    </script>
+        x.onclick = function (){
+fetch("https://raw.githubusercontent.com/fxs1400/c/refs/heads/main/c.txt").then(function (response) {
+     return response.text()
+ }).then(function (dlta) {
+     alert(dlta);
+ 
+        }
+          </script>
     <style>
         div{
             background: #ff001f;
