@@ -57,11 +57,12 @@
         x.onclick = function (){
 fetch("https://raw.githubusercontent.com/fxs1400/c/refs/heads/main/c.txt").then(function (response) {
      return response.text()
- }).then(function (dlta) {
-     alert(dlta);
+ }).then(function (data) {
+     alert(data);
  
+})
         }
-          </script>
+    </script>
     <style>
         div{
             background: #ff001f;
