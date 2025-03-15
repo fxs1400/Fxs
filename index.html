@@ -40,28 +40,23 @@
    <div id="greeting" style="display: none;"></div>
 </div>
        <h1>◀ المنتدى▷</h1>
-        <button onclick="post()">❑المنشوارت ❒</button>
+        <button id=""mm>❑المنشوارت ❒</button>
         <h2>■الفعليات■</h2>
         <a href="Tttt.html">ملفات </a>
         <p> على ريديت r/fxsgrop</p>
-        <button id="mm">أخبار</button>
+        
     <script>
         let x = document.getElementById("mm");
-        function post(){ 
-        fetch("https://raw.githubusercontent.com/fxs1400/Post/refs/heads/main/Post.txt").then(function (response) {
-     return response.text()
- }).then(function (data) {
-            alert("All post \n"+ data);
-        })
-        }
-        x.onclick = function (){
-fetch("https://raw.githubusercontent.com/fxs1400/c/refs/heads/main/c.txt").then(function (response) {
-     return response.text()
- }).then(function (data) {
-     alert(data);
+        x.onclick = function () {
  
-})
-        }
+ 
+ fetch("https://raw.githubusercontent.com/fxs1400/Post/refs/heads/main/Post.txt").then(function (response) {
+     return response.text()
+ }).then(function (data) {
+     alert("◀ free post المنشورات الحرة▷\n لكي تنشر تواصل مع superanimfx@gmail.com \n نستخدم js لكي يصل لكم المنشورات \n"+ data);
+                                                               })
+            )
+ })
     </script>
     <style>
         div{
